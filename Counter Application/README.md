@@ -26,6 +26,9 @@ Black if value = 0
 
 🖼️ Demo Screenshot
 <img width="397" height="407" alt="image" src="https://github.com/user-attachments/assets/95c5fa2b-e10d-402f-8ce2-5309eeacfc7b" />
+<br/>
+
+
 📂 Project Structure
 /index.html
 /styles.css
