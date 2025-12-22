@@ -1,0 +1,37 @@
+.accordition_container{
+    width : 600px;
+    margin : 20px auto;
+    background-color: bisque;
+    text-align: center;
+    padding : 10px;
+}
+
+.heading_container{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+.rotate{
+    transform: rotate(45deg);
+}
+
+.question{
+    font-size: 1.5rem;
+    padding : 10px 20px
+}
+
+.access__logo{
+    font-size: 2rem;
+    font-weight: 900;
+    padding : 10px 20px;
+}
+
+.show{
+    display : block;
+    
+}
+
+.hide{
+    display: none;
+}
