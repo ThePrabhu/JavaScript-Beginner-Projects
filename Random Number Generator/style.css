@@ -1,0 +1,17 @@
+.main__container{
+    height :  300px;
+    width : 1000px;
+    margin : 10px auto;
+    border-radius: 10px;
+    padding : 20px
+}
+
+.instructions{
+    background-color: rgb(208, 125, 125);
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+label{
+    font-weight: bolder;
+}
