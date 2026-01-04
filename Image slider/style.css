@@ -1,0 +1,30 @@
+.main__container{
+    position: relative;
+    width :   400px;
+    margin: 10px auto;
+}
+
+.arrow{
+    position: absolute;
+    background-color: grey;
+    height: 30px;
+    width : 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.arrow-right{
+    top : 50%;
+    right: -20px;
+}
+
+.arrow-left{
+    top : 50%;
+    left: -20px;
+}
+
+
+img{
+    width : 400px;
+    height: 200px;
+}
