@@ -277,6 +277,21 @@ html{
 }
 
 
+@media (max-width : 70.375rem){
+    .yourTasks_container{
+        width : 70rem
+    }
+}
+
+@media (max-width : 52.75rem){
+    .yourTasks_container{
+        width : 100vw;
+    }
+    .arrow-right{
+        display: none;
+    }
+}
+
 /*-------delete page--------*/
 .delete_container{
     position: relative;
