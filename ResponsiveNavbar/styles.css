@@ -1,7 +1,6 @@
 html{
     font-size: 62.5%;
 }
-
 .navbar{
     height : 10vh;
     position:fixed;
@@ -11,6 +10,7 @@ html{
     width: 100vw;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: white;
     box-sizing: border-box;
     background-color: rgb(196, 246, 255);
@@ -21,75 +21,73 @@ html{
 /*styling image*/
 
 .navbar-img{
-    padding : 0px 0px 25px 30px;
+    padding : 0px 0px 1rem 2rem;
 
 }
 
 /*----Styling nav links */
 
 nav ul{
-    padding : 40px;
     display: flex;
-    gap : 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    gap : 1.7rem;
 }
 
 nav ul li{
-    display: flex;
     list-style-type: none;
-    position: relative;
-    left : -60px;
-    bottom : 30px
+    left : -6rem;
 }
 
 nav ul li a{
     text-decoration: none;
     color : black;
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: 500;
 }
 
-
-/*styling nav logos*/
-
-.nav-logos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right : 80px
+@media (max-width : 668px) {
+    nav ul li a{
+        font-size: 1.5rem;
+    }
 }
 
-nav{
-    display : flex;
-    gap : 30px;
-}
 
-.nav-logos nav i{
-    font-size: 1.4rem;
-}
 
 /* hamburger menu bar styling */
 .hamburgerMenuBar{
-    width : 6rem;
-    height : 6rem;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
+    width : 4rem;
+    height : 4rem;
     cursor: pointer;
+    display: none;
 }
 
 #birdClose{
     font-size: 3rem;
 }
 
+@media (max-width : 500px){
+    
+    nav ul{
+        display: none;
+    }
+    .navbar-img{
+    width: 5rem ;
+    padding : 2rem 0rem;
+
+}
+    .hamburgerMenuBar{
+        display: block;
+    }
+}
 
 /* sidebar styling */
 .sidebarContainer{
     position: fixed;
     top : 0;
     right : 0;
-    background-color: rgb(255, 255, 255 , 0.1);
+    background-color: rgba(219, 112, 112, 0.1);
     height: 100vh;
     width : 250px;
     z-index: 1001;
@@ -100,6 +98,7 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-self: center;
+    /* display: none; */
 }
 
 .sidebarContainer ul{
