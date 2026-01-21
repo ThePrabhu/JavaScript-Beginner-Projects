@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_page{
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(grey, white , pink);
+}
+
+.container{
+  font-size: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  cursor: pointer;
+}
+
+.themeChange{
+  background-image: linear-gradient(rgb(223, 72, 22), white , rgb(33, 236, 43));
+}
+.hideClass{
+  display: none;
+}
