@@ -1,23 +1,15 @@
 const sideBarMenu = document.querySelector(".sidebarContainer");
-const hamBrgerIcon = document.querySelector(".fa-bars");
-const crossIcon = document.querySelector(".fa-xmark");
+const hamBrgerIcon = document.querySelector("#hamburgerIcon");
+const crossIcon = document.querySelector("#birdClose");
 
 hamBrgerIcon.addEventListener("click" , ()=> {
-    sideBarMenu.classList.toggle("hideClass");
-    hamBrgerIcon.style.transfrom = "rotate(90deg)";
-    crossIcon.classList.toggle("hideClass");
-    hamBrgerIcon.classList.toggle("hideClass");
+    sideBarMenu.classList.remove("hideClass");
+    crossIcon.classList.remove("hideClass");
+    hamBrgerIcon.classList.add("hideClass");
 })
 
 crossIcon.addEventListener("click" , ()=> {
-    sideBarMenu.classList.toggle("hideClass");
-    crossIcon.classList.toggle("hideClass");
-    hamBrgerIcon.classList.toggle("hideClass");
-})
-
-dropDownMenu.addEventListener("click" , ()=> {
-    dropDownContent.classList.toggle("hideClass");
-    downArrow.classList.toggle("hideClass");
-    upArrow.classList.toggle("hideClass");
-    navBar.classList.toggle("colorBlack");
+    sideBarMenu.classList.add("hideClass");
+    crossIcon.classList.add("hideClass");
+    hamBrgerIcon.classList.remove("hideClass");
 })

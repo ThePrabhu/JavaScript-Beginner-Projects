@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
@@ -12,25 +12,24 @@
         <div class="navbar">
             <div class="navbar-img">
                 <figure>
-                    <img src="Tourism-Australlia-logo.png" height="50rem" width="125rem" alt="tourism-image">
+                    <img src="Tourism-Australlia-logo.png" width="125px" alt="tourism-image">
                 </figure>
             </div>
             <nav>
-                <ul>
+                <ul class="navbarUL">
                     <li><a href="#">Be Inspired </a></li>
                     <li><a href="#">Places to go </a></li>
                     <li><a href="#">Things to do </a></li>
                     <li><a href="#">Plan your Trip</a></li>
                 </ul>
             </nav>
-            <nav class="hamburgerMenuBar hideClass">
-                <i class="fa-solid fa-bars" id="birdClose"></i>
+            <nav class="hamburgerMenuBar">
+                <i class="fa-solid fa-bars" id="hamburgerIcon"></i>
                 <i class="fa-solid fa-xmark hideClass" id="birdClose"></i>
             </nav>
-        </nav>
         <!-- SideBar -->
         <nav class="sidebarContainer hideClass">
-            <ul>
+            <ul class="sidebarUL">
                 <li><a href="#">Be Inspired </a></li>
                 <li><a href="#">Places to go </a></li>
                 <li><a href="#">Things to do </a></li>
@@ -39,5 +38,6 @@
         </nav>
         </div>
     </header>
+    <script src="script.js"></script>
 </body>
 </html>
