@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.modelAlert{
+  position: absolute;
+  top : 20%;
+  left: 40%;
+  z-index: 1000;
+  background-color: antiquewhite;
+  width: 250px;
+  border-radius: 10px;
+  padding: 10px;
+  animation: model 1s ease-in 1;
+}
+
+@keyframes model {
+  0%{
+    transform: translateY(0px);
+  }
+}
+
+
+
+fieldset{
+  margin: 10px;
+}
+
+input{
+  margin: 0.5rem;
+} 
+
+.userNames li{
+  font-weight: bolder;
+  text-align: center;
+}
